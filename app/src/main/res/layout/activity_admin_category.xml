@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mytheme"
+    tools:context=".AdminCategoryActivity" >
+
+
+
+    <TextView
+       android:id="@+id/slogan_category"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="27dp"
+       android:text="@string/add_new_product"
+       android:textAlignment="center"
+       android:textSize="22sp"
+       android:textStyle="bold"
+       />
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <Button
+            android:id="@+id/motherboard"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="MotherBoards"
+            android:background="@drawable/buttons"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/ram"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/buttons"
+            android:layout_height="55dp"
+            android:text="RAm"
+            />
+        <Button
+            android:id="@+id/cpu"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/buttons"
+            android:text="cpu"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        >
+        <Button
+            android:id="@+id/psu"
+            android:layout_width="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_height="55dp"
+            android:layout_marginStart="3dp"
+            android:text="PSU"
+            />
+        <Button
+            android:id="@+id/hdd"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:background="@drawable/buttons"
+            android:layout_marginStart="3dp"
+            android:text="Storage" />
+
+        <Button
+            android:id="@+id/cpufan"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/buttons"
+            android:text="Cpu Fan"
+            />
+
+
+        <Button
+            android:id="@+id/gpu"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/buttons"
+            android:text="GPU" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/expansion_card"
+            android:layout_width="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_height="55dp"
+            android:text="ExpansionCards"
+            />
+
+        <Button
+            android:id="@+id/keyboard"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:background="@drawable/buttons"
+            android:layout_marginStart="3dp"
+            android:text="KeyBoards" />
+
+        <Button
+            android:id="@+id/mouse"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/buttons"
+            android:text="Mouse"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear4_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear3_category_layout"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/monitor"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Monitor"
+            android:background="@drawable/buttons"
+            android:layout_marginStart="3dp"
+            />
+        <Button
+            android:id="@+id/laptop_pc"
+            android:layout_width="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_height="55dp"
+            android:text="Laptop/Pc"
+            android:layout_marginStart="3dp"
+            />
+
+        <Button
+            android:id="@+id/headphones"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:background="@drawable/buttons"
+            android:text="HeadPhones"
+            android:layout_marginStart="3dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear5_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/linear4_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        >
+
+
+        <Button
+            android:id="@+id/cables"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/buttons"
+            android:text="Cables"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+

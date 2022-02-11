@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "94227197404",
+    "firebase_url": "https://second-store-199-default-rtdb.firebaseio.com",
+    "project_id": "second-store-199",
+    "storage_bucket": "second-store-199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94227197404:android:18fbe2123409d89116f319",
+        "android_client_info": {
+          "package_name": "com.example.android.secondstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94227197404-8s4433pvmttasaiuh04bpvp7ja5m13ib.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.secondstore",
+            "certificate_hash": "89578eb049171df38c31104f066a16b7e1cf7f75"
+          }
+        },
+        {
+          "client_id": "94227197404-h54r0i6vjodjvkaiq9j6d3kpa28cj3ro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ8ZePYC7aqxf7b5AA5IsrX9AhcG--eOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94227197404-h54r0i6vjodjvkaiq9j6d3kpa28cj3ro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

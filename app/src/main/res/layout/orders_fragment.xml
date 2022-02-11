@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.OrdersFragment"
+    android:background="@color/mytheme"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="italic"
+       android:layout_marginTop="200dp"
+        android:textDirection="firstStrong"
+        android:background="@drawable/underline"
+        android:textAllCaps="false"
+        android:textColorHighlight="@color/green"
+        android:textColor="@color/green"
+        android:text="Click below To see Privacy Policy" />
+
+
+    <Button
+        android:id="@+id/privacy_view_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/buttons"
+        android:layout_gravity="center"
+        android:text="Privacy"
+        android:textColor="@color/mytheme"
+        android:textSize="24dp"
+        android:textStyle="italic" />
+</FrameLayout>

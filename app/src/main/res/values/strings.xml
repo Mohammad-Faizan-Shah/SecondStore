@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Second Store</string>
+    <string name="app_slogan">Find, Discover, Choose and Buy</string>
+    <string name="login_btn">Already have an Account? Login</string>
+    <string name="join_now_btn">Join Now</string>
+    <string name="login_remember_me">Remember me</string>
+    <string name="login_forget_password">Forget Password?</string>
+    <string name="admin_panel_link">Shop Owner?</string>
+    <string name="not_admin_panel_link">Not a Shop Owner?</string>
+    <string name="register_create_account">Create Account</string>
+    <string name="login">Login</string>
+    <string name="register_username">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="join_as_admin">Join as Shop Owner?</string>
+    <string name="join_as_user">Join as user?</string>
+    <string name="add_new_product">Select Category for your Product</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="add_product">Add Product</string>
+
+    <string name="title_activity_home1">Home1Activity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="user_name">User Name</string>
+    <string name="cart">Shop</string>
+    <string name="orders">Orders</string>
+    <string name="categories">Categories</string>
+    <string name="settings">Manage Account</string>
+    <string name="logout">Logout </string>
+    <string name="search">Search</string>
+    <string name="add">Add Items</string>
+    <string name="Chat">Chat</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="account">Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register"><![CDATA[<Register>]]></string>
+    <string name="bag">/Bag</string>
+    <string name="privacy">Privacy Policy
+Last updated: May 17, 2021
+
+This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
+
+We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the Privacy Policy Generator.</string>
+</resources>

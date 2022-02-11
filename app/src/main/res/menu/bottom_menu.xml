@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_nav_home"
+        android:icon="@drawable/home_icon"
+        android:title="@string/cart"
+        android:iconTint="@color/colorAccent"/>
+    <item
+        android:id="@+id/bottom_nav_search"
+        android:icon="@drawable/search"
+        android:title="@string/search"
+        android:iconTint="@color/colorAccent"
+        app:actionViewClass="android.widget.SearchView"/>
+    <item
+        android:id="@+id/placeholder"
+        android:title=""/>
+
+    <item
+        android:id="@+id/bottom_nav_chat"
+        android:icon="@drawable/chat"
+        android:title="@string/Chat"
+        android:iconTint="@color/colorAccent"/>
+    <item
+        android:id="@+id/bottom_nav_logout"
+        android:icon="@drawable/logout"
+        android:title="@string/logout"
+        android:iconTint="@color/white"/>
+
+
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.CartFragment"
+    android:background="@color/mytheme">
+
+<FrameLayout
+    android:id="@+id/aboveframe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/cart_next_btn">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+
+        />
+</FrameLayout>
+
+        <TextView
+            android:id="@+id/cart_top_textview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/buttons"
+            android:text="Favorite"
+            android:textColor="@color/mytheme"
+            android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/cart_next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-3dp"
+        android:background="@drawable/buttons"
+        android:text="Buy All"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textColor="@color/mytheme"
+        android:padding="10dp"
+        android:textSize="24dp" />
+
+
+</RelativeLayout>
+

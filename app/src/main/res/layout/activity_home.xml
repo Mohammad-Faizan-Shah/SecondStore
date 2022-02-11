@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".HomeActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/container_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/greentheme"
+                app:title="Home"
+                app:titleTextColor="@color/mytheme"/>
+
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:id="@+id/coordinatorLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.google.android.material.appbar.AppBarLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:elevation="0dp"
+                    android:fitsSystemWindows="true"
+                    >
+
+                </com.google.android.material.appbar.AppBarLayout>
+
+                <com.google.android.material.bottomappbar.BottomAppBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bottom_app_bar"
+                    android:layout_gravity="bottom"
+                    app:fabCradleMargin="10dp"
+                    app:fabCradleRoundedCornerRadius="20dp"
+
+                    />
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bottom_nav_bar"
+                    app:menu="@menu/bottom_menu"
+                    android:outlineAmbientShadowColor="@color/green"
+                    app:itemRippleColor="@color/green"
+                    android:outlineSpotShadowColor="@color/green"
+                    android:layout_gravity="bottom"
+                    android:background="@android:color/transparent"/>
+
+
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fab"
+                    android:src="@drawable/plusbtn"
+                    app:layout_anchor="@id/bottom_app_bar"/>
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+            <!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:id="@+id/bottom_navigation_bar"-->
+            <!--            app:menu="@menu/bottom_menu"-->
+            <!--            android:layout_gravity="bottom"/>-->
+
+
+
+
+
+
+            <!--        <com.gauravk.bubblenavigation.BubbleNavigationLinearView-->
+            <!--            android:id="@+id/bottom_nav_bar"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="60dp"-->
+            <!--            android:layout_alignParentBottom="true"-->
+
+            <!--            android:layout_alignParentEnd="true"-->
+            <!--            android:background="#2196F3">-->
+
+            <!--            <com.gauravk.bubblenavigation.BubbleToggleView-->
+            <!--                android:id="@+id/bottom_shop_btn"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                app:bt_active="true"-->
+            <!--                app:bt_colorActive="@color/MyColor"-->
+            <!--                app:bt_colorInactive="@color/black"-->
+            <!--                app:bt_icon="@drawable/home"-->
+            <!--                app:bt_title="@string/CartModel" />-->
+
+            <!--            <com.gauravk.bubblenavigation.BubbleToggleView-->
+            <!--                android:id="@+id/bottom_search_btn"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                app:bt_active="true"-->
+            <!--                app:bt_colorActive="@color/MyColor"-->
+            <!--                app:bt_colorInactive="@color/black"-->
+            <!--                app:bt_icon="@drawable/search"-->
+            <!--                app:bt_title="@string/search" />-->
+
+
+            <!--            <com.gauravk.bubblenavigation.BubbleToggleView-->
+            <!--                android:id="@+id/bottom_add_btn"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                app:bt_active="true"-->
+            <!--                app:bt_colorActive="@color/MyColor"-->
+            <!--                app:bt_colorInactive="@color/black"-->
+            <!--                app:bt_icon="@drawable/add"-->
+            <!--                app:bt_title="@string/add" />-->
+
+            <!--            <com.gauravk.bubblenavigation.BubbleToggleView-->
+            <!--                android:id="@+id/bottom_chat_btn"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                app:bt_active="true"-->
+            <!--                app:bt_colorActive="@color/MyColor"-->
+            <!--                app:bt_colorInactive="@color/black"-->
+            <!--                app:bt_icon="@drawable/chat"-->
+            <!--                app:bt_title="@string/Chat" />-->
+
+            <!--        <com.gauravk.bubblenavigation.BubbleToggleView-->
+            <!--            android:id="@+id/bottom_profile_btn"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            app:bt_active="true"-->
+            <!--            app:bt_colorActive="@color/MyColor"-->
+            <!--            app:bt_colorInactive="@color/black"-->
+            <!--            app:bt_icon="@drawable/settings"-->
+            <!--            app:bt_title="@string/account" />-->
+
+
+            <!--        </com.gauravk.bubblenavigation.BubbleNavigationLinearView>-->
+
+
+        </RelativeLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/side_nav_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            android:background="@color/green"
+            app:itemIconTint="@color/mytheme"
+            app:itemTextColor="@color/mytheme"
+            app:itemBackground="@drawable/menu_item_padding"
+            app:headerLayout="@layout/nav_header_main"
+            app:menu="@menu/side_menu" />
+
+
+
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

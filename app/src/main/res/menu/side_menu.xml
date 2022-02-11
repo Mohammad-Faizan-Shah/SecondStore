@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/side_nav_fav"
+            android:icon="@drawable/favorite_white"
+            android:title="Favorite"
+            android:iconTint="@color/mytheme"
+            />
+
+        <item
+            android:id="@+id/side_nav_categories"
+            android:icon="@drawable/category"
+            android:title="@string/categories"
+            android:iconTint="@color/mytheme"/>
+        <item
+            android:id="@+id/side_nav_settings"
+            android:icon="@drawable/settings_icon"
+            android:title="@string/settings"
+            android:iconTint="@color/mytheme"/>
+
+    </group >
+
+    <item android:title="Communicate"
+        android:iconTint="@color/mytheme"
+        >
+
+        <menu>
+        <item
+            android:id="@+id/side_nav_privacy"
+            android:icon="@drawable/privacy"
+            android:title="Privacy Policy"
+            android:iconTint="@color/mytheme"/>
+
+        <item
+            android:id="@+id/side_nav_contactUs"
+            android:icon="@drawable/contact"
+            android:title="Contact Us"
+            android:iconTint="@color/mytheme"/>
+        <item
+            android:id="@+id/side_nav_share"
+            android:icon="@drawable/share"
+            android:title="Share"
+            android:iconTint="@color/mytheme"/>
+
+        </menu>
+    </item>
+
+</menu>

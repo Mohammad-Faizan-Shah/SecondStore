@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mytheme">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    android:background="@color/white"
+    android:backgroundTint="@color/mytheme">
+
+
+    <TextView
+        android:id="@+id/postedshowDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/underline1"
+        android:text="name"
+        android:layout_marginTop="20dp"
+       />
+
+    <ImageView
+        android:id="@+id/description_product_image"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:src="@color/green"
+        android:layout_below="@+id/postedshowDescription"
+        android:padding="10dp"
+        android:background="@drawable/input_design"
+        android:fadingEdge="horizontal"
+
+       />
+
+    <TextView
+        android:id="@+id/description_product_name"
+        android:layout_below="@+id/description_product_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/underline"
+        android:textColor="@color/green"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:text="Product Name" />
+
+    <TextView
+        android:id="@+id/description_product_description"
+        android:layout_below="@+id/description_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/underline"
+        android:textColorHint="@color/green"
+        android:textColor="@color/green"
+        android:textSize="18sp"
+
+        android:padding="8dp"
+        android:text="Product Description" />
+
+    <TextView
+        android:id="@+id/description_product_price"
+        android:layout_below="@+id/description_product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/underline"
+        android:textColorHint="@color/green"
+        android:textColor="@color/green"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:text="Product Price"/>
+
+    <Button
+        android:id="@+id/description_add_to_cart_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description_product_price"
+        android:layout_marginTop="183dp"
+         android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Add to Favorite"
+        android:background="@drawable/buttons"
+        android:textColor="@color/mytheme"/>
+
+
+</RelativeLayout>
+
+</ScrollView>

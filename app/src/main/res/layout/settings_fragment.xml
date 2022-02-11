@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragments.SettingsFragment"
+    android:background="@color/mytheme">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mytheme">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green">
+
+        <LinearLayout
+            android:id="@+id/backLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:background="@drawable/back_icon"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                />
+
+            <TextView
+                android:id="@+id/toolbar_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="@color/mytheme"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/settings_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_settings"
+        android:gravity="center"
+        android:background="@color/green">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/profile"
+            android:contextClickable="true"
+            android:layout_marginTop="50dp"
+            android:id="@+id/settings_profile"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/settings_registerd_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account Number"
+            android:layout_marginBottom="10dp"
+            android:textSize="17sp"
+            android:layout_below="@+id/settings_profile"
+            android:textStyle="italic"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/mytheme"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/mid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/settings_topbar"
+        android:background="@color/mytheme"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_settings_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/green"
+            android:hint="Full Name"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="17sp" >
+
+            <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/tedit_settings_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/mytheme"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_settings_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/green"
+            android:hint="Alternate Phone Number"
+            android:padding="10dp"
+            android:layout_below="@+id/til_settings_name"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="17sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tedit_settings_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/mytheme"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_settings_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/green"
+            android:hint="Address"
+            android:padding="10dp"
+            android:layout_below="@+id/til_settings_phone"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="17sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tedit_settings_address"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/mytheme" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/settings_submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/til_settings_address"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/buttons"
+            android:text="Submit"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/mid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </RelativeLayout>
+
+</RelativeLayout>
+</ScrollView>
